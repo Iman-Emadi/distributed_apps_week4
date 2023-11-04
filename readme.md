@@ -1,4 +1,4 @@
-# Distributed Applications
+# Distributed Applications (WiSe 2023/24)
 
 ## Assignment week 4
 
