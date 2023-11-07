@@ -3,15 +3,15 @@ import sql from 'mysql';
  *! Distributed Applications
  ** Name: Iman Emadi
  ** Matriculation number: 1452312
- *? Date: 04/11/2023
+ *? Date: 07/11/2023
  */
-const dev = true;
+const dev = false;
 
 const conn = sql.createConnection({
-    host: dev ? 'localhost' : 'example-server.mysql.database.azure.com',
-    user: dev ? 'root' : 'username',
-    password: dev ? 'root' : 'database_password',
-    database: dev ? 'distributed_apps' : 'db_name',
+    host: dev ? 'localhost' : 'da-mysql.mysql.database.azure.com',
+    user: dev ? 'root' : 'iman',
+    password: dev ? 'root' : '*******',
+    database: dev ? 'distributed_apps' : 'distributed_apps',
     port: 3306,
     ssl: {
         rejectUnauthorized: false
