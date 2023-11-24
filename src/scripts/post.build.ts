@@ -6,7 +6,7 @@ const pkg = {
     ...packageJSON,
     scripts: {
         "db_init": "node ./scripts/db.init.js",
-        "active": "node server.js"
+        "start": "node server.js"
     },
     devDependencies: {}
 }

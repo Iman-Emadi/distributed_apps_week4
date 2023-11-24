@@ -23,7 +23,7 @@ export const handleForm = async (req: Request, res: Express_Response) => {
      *! Distributed Applications
      ** Name: Iman Emadi
      ** Matriculation number: 1452312
-     *? Date: 04/11/2023
+     *? Date: 23/11/2023
      */
     const { name, phoneNumber } = req.body;
 
@@ -52,7 +52,7 @@ export const handleForm = async (req: Request, res: Express_Response) => {
  *! Distributed Applications
  ** Name: Iman Emadi
  ** Matriculation number: 1452312
- *? Date: 04/11/2023
+ *? Date: 23/11/2023
  */
 
 export const getUser = async (req: Request, res: Express_Response) => {
@@ -89,7 +89,7 @@ export const getUser = async (req: Request, res: Express_Response) => {
  *! Distributed Applications
  ** Name: Iman Emadi
  ** Matriculation number: 1452312
- *? Date: 04/11/2023
+ *? Date: 23/11/2023
  */
 export const getData = async (req: Request, res: Express_Response) => { //! defining the request handler, named `getData`
     const { lat, long } = req.query as { lat: string, long: string }; //? reading query parameters of the request.
