@@ -27,6 +27,14 @@ then we define a function to handle the GET requests:
 export const getData = async (req: Request, res: Express_Response) => {};
 ```
 
+In the `server.ts`, we add this request handler to the routing
+
+```ts
+app.get("/getData", getData);
+```
+
+So the requests to the `/getData`, with GET method, will be given to this function.
+
 Then we read the expected parameters and send them to our API endpoint, after a simple validation.
 
 ```ts
